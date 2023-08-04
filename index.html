@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavya Sunder| Personal Portfolio</title>
+
+    <!-- linking css file -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- linking js file -->
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav-container">
+      <h1>Kavya Sunder</h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- <li><a href="#experience">Experience</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- page-containers -->
+    <div class="pages-container">
+      <div class="page" id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            <h3>Hii this is Kavya Sunder</h3>
+            <br>
+            A dedicated and enthusiastic Computer Science student currently pursuing my Master of Computer Applications (MCA) in Christ University. 
+            With a strong passion for technology and problem-solving, I am on a journey to expand my knowledge and skills in various areas of computer
+            science.
+          </p>
+        </div>
+
+        <div class="page-img-container">
+          <img src="./images/about.png" alt="" />
+        </div>
+      </div>
+
+      <div class="page" id="education">
+        <div class="container">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <h3>Bachelors of Computer Applications</h3>
+              <p>Kristu Jayanti College, Bangalore, Karnataka</p>
+            </li>
+            <li>
+              <h3>Master of Computer Applications</h3>
+              <p>Christ University, Bangalore, Karnataka</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="page-img-container">
+          <img src="./images/education.png" alt="" />
+        </div>
+      </div>
+
+      
+      <div class="page" id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              Programming Languages: Java, C++
+            </li>
+            <li>
+              Web Development: HTML, CSS, JavaScript
+            </li>
+          </ul>
+        </div>
+        <div class="page-img-container">
+          <img src="E:\python\web stack\images\WhatsApp Image 2023-08-04 at 23.23.20.jpg"alt="" />
+        </div>
+      </div>
+
+      <div class="page" id="projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a href="https://www.example-project1.com" target="_blank"
+                >Project 1</a
+              >
+              <p>
+                A research project on artificial intelligence and machine
+                learning.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.example-project2.com" target="_blank"
+                >Project 2</a
+              >
+              <p>A web application developed for college map for students.</p>
+            </li>
+            <li>
+              <a href="https://www.example-project3.com" target="_blank"
+                >Project 3</a
+              >
+              <p>
+                A web application for selling and buying clothes</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="page-img-container">
+          <img src="./images/projects.png" alt="" />
+        </div>
+      </div>
+
+      <div class="page" id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form onsubmit="return false;" class="form-container">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button onclick="sendMessage()">Send Message</button>
+          </form>
+        </div>
+
+        <div class="page-img-container">
+          <img src="./images/contact.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

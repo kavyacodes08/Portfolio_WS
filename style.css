@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.nav-container {
+  background-color: #fff;
+  color: #fff;
+  padding: 0px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 15vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.nav-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container h1 {
+  font-size: 1.5rem;
+  color: #6c5ce7;
+  margin: 0;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-container ul li {
+  margin-left: 40px;
+  transition: transform 100ms ease-in-out;
+}
+
+.nav-container ul li:hover {
+  text-decoration: underline;
+}
+
+.nav-container ul li a {
+  color: #616161;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 100ms color ease-in-out;
+}
+
+.nav-container ul li a:hover {
+  color: #000;
+}
+
+/* pages */
+
+.pages-container {
+  min-height: 85vh;
+  padding: 0px 5%;
+}
+
+.page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.page .container {
+  width: 45%;
+}
+
+.page .container h2{
+    /* border: 2px solid red; */
+    font-size: 4rem;
+    color: rgb(37, 37, 37);
+}
+
+
+.page .container ul li{
+    margin-bottom: 20px;
+}
+
+.page .container ul li h3{
+    font-size: 1.2rem;
+}
+
+.page .container ul li p{
+    font-size: 1.1rem;
+    color: rgb(82, 82, 82);
+}
+
+.page-img-container {
+  height: 400px;
+  width: 600px;
+}
+
+.page-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  /* border: 2px solid green; */
+}
+ 
+
+/* form container */
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.form-container input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+
+.form-container textarea{
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.form-container button{
+    width: 100%;
+    height: 50px;
+    background-color: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.form-container button:hover{
+    background-color: #8e81f5;
+}
